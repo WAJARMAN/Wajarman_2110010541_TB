@@ -149,7 +149,24 @@ public class FTambahBuku extends javax.swing.JFrame {
     }//GEN-LAST:event_JDActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
+                    // Mengosongkan teks pada komponen ID, JD, PB, dan HG
+            ID.setText("");
+            JD.setText("");
+            PB.setText("");
+            HG.setText("");
+
+            // Mengubah nilai ID menjadi integer
+            try {
+                int idValue = Integer.parseInt(ID.getText());
+
+                // Gunakan nilai idValue sesuai kebutuhan di sini
+
+            } catch (NumberFormatException e) {
+                // Handle kesalahan jika input pada ID tidak dapat diubah menjadi integer
+                System.out.println("Masukkan ID dalam bentuk angka yang valid.");
+            }
+
+
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed

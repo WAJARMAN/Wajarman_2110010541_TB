@@ -317,7 +317,7 @@ if (selectedRow != -1) {
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
 
         try {
-            String reportPath = "src/Report/LBuku.jasper";
+            String reportPath = "src/Report/LaporanBuku.jasper";
             Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/buku", "root", "");
 
             HashMap<String, Object> parameters = new HashMap<>();

@@ -152,7 +152,7 @@ public class Laporan extends javax.swing.JFrame {
        
    try {
     // Path ke file JasperReport (.jasper)
-    String reportPath = "src/Report/LBuku.jasper";
+    String reportPath = "src/Report/LaporanBuku.jasper";
 
     // Membuat koneksi ke database (sesuaikan dengan informasi database Anda)
     Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/buku", "root", "");
